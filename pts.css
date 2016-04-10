@@ -1,0 +1,55 @@
+#mainspace #pts
+{
+position:relative;
+float:left;
+left:40px;
+
+width:300px;
+height:500px;
+background-image:url("temp.jpg")	;
+color:black;
+top:200px;
+}
+
+#pts h2
+{
+font-family:Verdana;
+font-size:30px;
+margin:auto;
+top:4px;
+position:relative;
+color:white;	
+}
+
+#pts hr
+{
+color:black;
+}
+
+#pts table
+{
+color:black;
+position:relative;
+top:25px;
+margin:auto;
+box-sizing:border-box;
+padding:10px;
+}
+
+
+
+#pts table td
+{
+text-align:center;
+height:40px;
+width:	00px;
+}
+
+
+#pts table,td
+{
+border: solid 2px black;
+border-collapse:collapse;
+}
+
+

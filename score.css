@@ -1,0 +1,35 @@
+#score
+{
+position: relative;
+float: right;
+top:200px; 
+right:40px;
+width:400px;
+height:500px;
+background-image:url("fixbg.jpg");
+color:black;
+}
+
+
+#score #one
+{
+position:relative;
+top:20px;
+}
+
+#score h1
+{
+position: relative;
+top:10	px;
+}
+#score #two
+{
+position:relative;
+top:-30px;
+}
+
+#score h2
+{
+position:relative;
+top:-30px;
+}

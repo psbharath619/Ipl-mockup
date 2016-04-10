@@ -1,0 +1,153 @@
+body
+{
+box-sizing:border-box;
+font-family: Calibri, Candara, Tahoma, sans-serif;
+background-image:url("bg111.jpg");
+background-attachment:fixed;
+bacground-repeat:no-repeat;
+color:white;
+margin-top:0px;
+}
+
+
+
+#mainspace
+{
+
+position:absolute;
+left:80px;
+right:80px;
+
+background-color:black;
+height:auto;	
+color:white;
+
+
+}
+
+
+#nav
+{
+
+box-sizing:border-box;
+position:fixed;
+left:0px;
+right:0px;
+
+background-image:url("grad.jpg");
+height:60px;
+z-index:1;
+
+}
+
+#nav ul
+{
+position:relative;
+margin:auto;
+width:100%
+}
+
+
+#nav ul li
+{
+box-sizing:border-box;
+text-align:center;
+list-style-type:none;
+width:8%;
+height:60px;
+float:left;
+font-size:20px;
+line-height:55px;
+}
+
+
+#nav ul li:hover
+{
+box-sizing:border-box;
+background-color:#FFFFFF;
+-webkit-transition: 0.15s ease-in-out;
+-moz-transition: 0.15s ease-in-out ;
+}
+
+
+#nav li a
+{
+color:white;
+text-decoration:none;
+}
+
+#nav ul li:hover 
+{
+box-sizing:border-box;
+
+background-color:#AAFF99;
+-webkit-transition: 0.15s ease-in-out;
+-moz-transition: 0.15s ease-in-out ;
+border-style: solid;
+border-color:black;
+border-width: 0px 0px 5px 0px;
+
+}
+
+#nav ul li:hover a
+{
+color:black;
+} 
+
+#nav #logo
+{
+float:left;
+background-image:url("log2.png");
+margin-left:0px;
+height:60px;
+width:120px;
+}
+
+#nav #logo:hover
+{
+opacity:0.68;
+}
+
+
+#nav #search
+{
+position:relative;
+left:20px;
+margin-top:16px;
+height:25px;
+width:250px;
+}
+
+#find
+{
+position:absolute;
+margin-top:16px;
+floatmargin-top:0px;
+height:25px;
+}
+
+#find:hover
+{
+
+opacity:0.8;
+}
+
+
+#nav img
+{
+position:relative;
+top:6px;
+border-sizing:border-box;
+padding:6px;
+right:50px;
+float:right;
+}
+
+#nav img:hover
+{
+top:-1px;
+-webkit-transition: 0.15s ease-in-out;
+-moz-transition: 0.15s ease-in-out ;
+}
+
+
